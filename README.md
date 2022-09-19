@@ -18,7 +18,7 @@ This project was created based on the <a href="https://www.youtube.com/watch?v=S
 
 * HTML5
 * CSS3
-* JavaScript - progress...
+* JavaScript - progress... (javascript codes will be implemented as you progress through the course.)
 
 This project is 'mobile first'.
 
