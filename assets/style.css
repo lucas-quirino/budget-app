@@ -28,12 +28,12 @@ body {
 }
 
 .container {
-    height: 100vh;
     background: var(--blue);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-flow: column;
+    max-height: 100vh;
 }
 
 .budget-container {
@@ -42,7 +42,6 @@ body {
     justify-content: space-between;
     width: 100%;
     max-width: 600px;
-    height: 100vh;
 }
 
 .budget-container h1 {
@@ -260,7 +259,6 @@ button {
     width: 20%;
     height: 40px;
 }
-
 
 /* ANIMATIONS */
 
