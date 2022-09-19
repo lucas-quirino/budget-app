@@ -24,4 +24,4 @@ This project is 'mobile first'.
 
 <br>
 
-![card form image exemple](assets/images/readme.gif)
+![budget add image exemple](assets/images/readme.gif)
