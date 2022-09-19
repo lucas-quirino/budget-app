@@ -24,6 +24,4 @@ This project is 'mobile first'.
 
 <br>
 
-<figure>
-  <img src="assets/images/readme.gif" alt="budget add image exemple" width=50px>
-</figure>
+![budget add image exemple](assets/images/README.gif)
