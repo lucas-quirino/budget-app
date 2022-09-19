@@ -33,7 +33,6 @@ body {
     align-items: center;
     justify-content: center;
     flex-flow: column;
-    max-height: 100vh;
 }
 
 .budget-container {
