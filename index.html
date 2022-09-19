@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Budget App</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/fav-icon.png">
+</head>
+<body>
+    <div class="container">
+
+        <div class="budget-container bounceInDown">
+        <h1 class="bounceInDown">Budget<span>App </span></h1>
+
+            <div class="budget-header">
+                <div class="balance">
+                    <div class="title bounceInLeft">Balance</div>
+                    <div class="value bounceInLeft">R$ 6760,00</div>
+                </div>
+                <div class="account">
+                    <div class="in">
+                        <div class="income">Income</div>
+                        <div class="income-total">R$ 7000,00</div>
+                    </div>
+                    <div class="chart">chart</div>
+                    <div class="out">
+                        <div class="outcome">Outcome</div>
+                        <div class="outcome-total">R$ 240,00</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="budget-dashboard bounceInUp">
+                <h2 class="bounceInLeft">Dashboard</h2>
+                <div class="toggle">
+                    <div class="tab1">Expenses</div>
+                    <div class="tab2">Income</div>
+                    <div class="tab3">All</div>
+                </div>
+                <div class="hide" id="expense"></div>
+                <div class="income">
+                    <ul class="list">
+                        <li id="0" class="income">
+                            <div class="entry">Salary: R$ 7000,00</div>
+                            <div class="delet"><img src="assets/images/edit.png" alt="edit icon"></div>
+                            <div class="edit"><img src="assets/images/trash.png" alt="trash icon"></div>
+                        </li>
+                        <li id="0" class="income">
+                            <div class="entry">Medicine: R$ -200,00</div>
+                            <div class="delet"><img src="assets/images/edit.png" alt="edit icon"></div>
+                            <div class="edit"><img src="assets/images/trash.png" alt="trash icon"></div>
+                        </li>
+                        <li id="0" class="income">
+                            <div class="entry">Chocolate Cake: R$ -40,00</div>
+                            <div class="delet"><img src="assets/images/edit.png" alt="edit icon"></div>
+                            <div class="edit"><img src="assets/images/trash.png" alt="trash icon"></div>
+                        </li>
+                        <li id="0" class="income">
+                            <div class="entry">Beer: R$ -90,00</div>
+                            <div class="delet"><img src="assets/images/edit.png" alt="edit icon"></div>
+                            <div class="edit"><img src="assets/images/trash.png" alt="trash icon"></div>
+                        </li>
+                    </ul>
+                    <div class="input">
+                        <input type="text" id="income-tittle-input" name="title" placeholder="title">
+                        <input type="number" id="income-amount-input" name="amount" placeholder="R$ 0">
+                        <button>+</button>
+                    </div>
+                </div>
+                <div class="hide" id="all"></div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
