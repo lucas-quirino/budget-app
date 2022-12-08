@@ -1,26 +1,14 @@
-# Budget App - Mobile first 📈👜⚖
+Vercel link: https://budget-app-blond.vercel.app/
 
-## Budget application for your financial control.
+## Budget App - Mobile first 📈👜⚖
 
-<br>
-
-### <a href="https://budget-app-ivory.vercel.app/">Visit the project in Vercel.</a>
+### Budget application for your financial control.
 
 <br>
 
 This project was created based on the <a href="https://www.youtube.com/watch?v=SQbCwfGC7EM">youtube video</a>.
 
 📈
-
-<br>
-
-### In this work I was able to practice:
-
-* HTML5
-* CSS3
-* JavaScript - progress... (javascript codes will be implemented as you progress through the course.)
-
-This project is 'mobile first'.
 
 <br>
 
